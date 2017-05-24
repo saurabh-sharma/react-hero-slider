@@ -1,4 +1,4 @@
-#React Hero Slider!
+React Hero Slider!
 ===================
 
 Hero slider for your React App
