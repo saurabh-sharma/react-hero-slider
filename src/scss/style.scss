@@ -814,12 +814,33 @@ Slider navigation
             }
 
             &.item-4 {
-                @include transform(translateX(300%));
+                @include transform(translateX(450%));
             }
 
             &.item-5 {
-                @include transform(translateX(350%));
+                @include transform(translateX(600%));
             }
+
+            &.item-6 {
+                @include transform(translateX(750%));
+            }
+
+            &.item-7 {
+                @include transform(translateX(900%));
+            }
+
+            &.item-8 {
+                @include transform(translateX(1050%));
+            }
+
+            &.item-9 {
+                @include transform(translateX(1200%));
+            }
+
+            &.item-10 {
+                @include transform(translateX(1350%));
+            }
+
 
         }
         @include MQR(R2) {
@@ -832,11 +853,31 @@ Slider navigation
             }
 
             &.item-4 {
-                @include transform(translateX(300%));
+                @include transform(translateX(450%));
             }
 
             &.item-5 {
-                @include transform(translateX(350%));
+                @include transform(translateX(600%));
+            }
+
+            &.item-6 {
+                @include transform(translateX(750%));
+            }
+
+            &.item-7 {
+                @include transform(translateX(900%));
+            }
+
+            &.item-8 {
+                @include transform(translateX(1050%));
+            }
+
+            &.item-9 {
+                @include transform(translateX(1200%));
+            }
+
+            &.item-10 {
+                @include transform(translateX(1350%));
             }
 
         }
@@ -850,11 +891,31 @@ Slider navigation
             }
 
             &.item-4 {
-                @include transform(translateX(300%));
+                @include transform(translateX(450%));
             }
 
             &.item-5 {
-                @include transform(translateX(350%));
+                @include transform(translateX(600%));
+            }
+
+            &.item-6 {
+                @include transform(translateX(750%));
+            }
+
+            &.item-7 {
+                @include transform(translateX(900%));
+            }
+
+            &.item-8 {
+                @include transform(translateX(1050%));
+            }
+
+            &.item-9 {
+                @include transform(translateX(1200%));
+            }
+
+            &.item-10 {
+                @include transform(translateX(1350%));
             }
 
         }
@@ -868,11 +929,31 @@ Slider navigation
             }
 
             &.item-4 {
-                @include transform(translateX(300%));
+                @include transform(translateX(450%));
             }
 
             &.item-5 {
-                @include transform(translateX(350%));
+                @include transform(translateX(600%));
+            }
+
+            &.item-6 {
+                @include transform(translateX(750%));
+            }
+
+            &.item-7 {
+                @include transform(translateX(900%));
+            }
+
+            &.item-8 {
+                @include transform(translateX(1050%));
+            }
+
+            &.item-9 {
+                @include transform(translateX(1200%));
+            }
+
+            &.item-10 {
+                @include transform(translateX(1350%));
             }
 
         }
@@ -889,11 +970,31 @@ Slider navigation
             }
 
             &.item-4 {
-                @include transform(translateX(300%));
+                @include transform(translateX(450%));
             }
 
             &.item-5 {
-                @include transform(translateX(350%));
+                @include transform(translateX(600%));
+            }
+
+            &.item-6 {
+                @include transform(translateX(750%));
+            }
+
+            &.item-7 {
+                @include transform(translateX(900%));
+            }
+
+            &.item-8 {
+                @include transform(translateX(1050%));
+            }
+
+            &.item-9 {
+                @include transform(translateX(1200%));
+            }
+
+            &.item-10 {
+                @include transform(translateX(1350%));
             }
 
         }
@@ -917,25 +1018,65 @@ Slider navigation
                 @include transform(translateX(660%));
             }
 
+            &.item-6 {
+                @include transform(translateX(825%));
+            }
+
+            &.item-7 {
+                @include transform(translateX(990%));
+            }
+
+            &.item-8 {
+                @include transform(translateX(1155%));
+            }
+
+            &.item-9 {
+                @include transform(translateX(1320%));
+            }
+
+            &.item-10 {
+                @include transform(translateX(1485%));
+            }
+
         }
         @include MQR(R7) {
             width: 15px;
             height: 15px;
             border-radius: 10px;
             &.item-2 {
-                @include transform(translateX(150%));
+                @include transform(translateX(165%));
             }
 
             &.item-3 {
-                @include transform(translateX(300%));
+                @include transform(translateX(330%));
             }
 
             &.item-4 {
-                @include transform(translateX(300%));
+                @include transform(translateX(495%));
             }
 
             &.item-5 {
-                @include transform(translateX(350%));
+                @include transform(translateX(660%));
+            }
+
+            &.item-6 {
+                @include transform(translateX(825%));
+            }
+
+            &.item-7 {
+                @include transform(translateX(990%));
+            }
+
+            &.item-8 {
+                @include transform(translateX(1155%));
+            }
+
+            &.item-9 {
+                @include transform(translateX(1320%));
+            }
+
+            &.item-10 {
+                @include transform(translateX(1485%));
             }
 
         }
@@ -1028,45 +1169,45 @@ Slider navigation
 		}
 	}
 
-	li:first-of-type a::before {
-		background-position: 0 0;
-	}
+	// li:first-of-type a::before {
+	// 	background-position: 0 0;
+	// }
 
-	li.selected:first-of-type a::before {
-		background-position: 0 -24px;
-	}
+	// li.selected:first-of-type a::before {
+	// 	background-position: 0 -24px;
+	// }
 
-	li:nth-of-type(2) a::before {
-		background-position: -24px 0;
-	}
+	// li:nth-of-type(2) a::before {
+	// 	background-position: -24px 0;
+	// }
 
-	li.selected:nth-of-type(2) a::before {
-		background-position: -24px -24px;
-	}
+	// li.selected:nth-of-type(2) a::before {
+	// 	background-position: -24px -24px;
+	// }
 
-	li:nth-of-type(3) a::before {
-		background-position: -48px 0;
-	}
+	// li:nth-of-type(3) a::before {
+	// 	background-position: -48px 0;
+	// }
 
-	li.selected:nth-of-type(3) a::before {
-		background-position: -48px -24px;
-	}
+	// li.selected:nth-of-type(3) a::before {
+	// 	background-position: -48px -24px;
+	// }
 
-	li:nth-of-type(4) a::before {
-		background-position: -72px 0;
-	}
+	// li:nth-of-type(4) a::before {
+	// 	background-position: -72px 0;
+	// }
 
-	li.selected:nth-of-type(4) a::before {
-		background-position: -72px -24px;
-	}
+	// li.selected:nth-of-type(4) a::before {
+	// 	background-position: -72px -24px;
+	// }
 
-	li:nth-of-type(5) a::before {
-		background-position: -96px 0;
-	}
+	// li:nth-of-type(5) a::before {
+	// 	background-position: -96px 0;
+	// }
 
-	li.selected:nth-of-type(5) a::before {
-		background-position: -96px -24px;
-	}
+	// li.selected:nth-of-type(5) a::before {
+	// 	background-position: -96px -24px;
+	// }
 
 	@include MQ(M) {
 		// height: 80px;
@@ -1121,6 +1262,8 @@ Main content
 Javascript disabled
 
 -------------------------------- */
+
+/* -------------------------------- 
 .no-js .cd-hero-slider li {
 	display: none;
 
@@ -1132,3 +1275,4 @@ Javascript disabled
 .no-js .cd-slider-nav {
 	display: none;
 }
+-------------------------------- */

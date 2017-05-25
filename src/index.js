@@ -1,7 +1,6 @@
 import React from 'react';
 import { render } from 'react-dom';
 import App from './components';
-import Modernizr from './js/modernizr';
 import $ from 'jquery';
 
 window.$ = $;
